@@ -1,0 +1,13 @@
+<!-- Define your plugins -->
+<plugin>
+    <name>Example Button Plugin</name>
+    <version>0.1 </version>
+    <author>lab</author>
+    <homePage>www.ilab.com</homePage>
+    <email>ilab@ilab.com</email>
+    <description>Adds an example button to chat room</description>
+    <minSparkVersion>2.6.0</minSparkVersion>
+    <java>1.7.0</java>
+    <class>lab.faceonfire.examplebutton.ExampleButtonPlugin</class>
+    <os>Windows,Linux,Mac</os>
+</plugin>

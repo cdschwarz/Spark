@@ -390,6 +390,13 @@
 			</then>
 		</if>
 	</target>
+	
+	<target name="build.examplebutton">
+			<subant target="">
+				<fileset dir="./src/plugins/examplebutton/" includes="*/build.xml" />
+			</subant>
+		</target>
+
 
 	<target name="build.plugins">
 		<subant target="">
@@ -419,6 +426,9 @@
 		-->
 		<subant target="">
 				<fileset dir="./src/plugins/otr/" includes="*/build.xml" />
+		</subant>
+		<subant target="">
+					<fileset dir="./src/plugins/examplebutton/" includes="*/build.xml" />
 		</subant>
 		
 		<!--	<subant target="">
